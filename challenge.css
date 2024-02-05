@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: monospace;
+
+}
+
+.japanese{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 30px;
+
+}
+
+.heading2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.rock{
+    height: 100px;
+    width: 100px;
+    margin-left: 600px;
+    cursor: pointer;
+    
+    >img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        
+        
+
+    }
+}
+
+.sza{
+    height: 100px;
+    width: 100px;
+    margin-left: 800px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    
+    >img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
+.paper{
+    height: 100px;
+    width: 100px;
+    margin-left: 400px;
+    margin-top: -80px;
+    cursor: pointer;
+    >img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+}
+
+.userchoice{
+    height: 50px;
+    width: 400px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-family: monospace;
+    >h4{
+        font-size: 30px;
+    }
+}
+.vs{
+    height: 30px;
+    width: 400px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-family: monospace;
+    >h4{
+        font-size: 30px;
+    }
+
+}
+.computer{
+    height: 50px;
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+.result{
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-family: monospace;
+
+}
+
+.Score{
+    height: 100px;
+    width: 300px;
+    margin-left: 1000px;
+   font-size: 40px;
+   font-family: monospace;
+   margin-top: -80px;
+
+}

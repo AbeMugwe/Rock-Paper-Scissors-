@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock,Paper,Scissors</title>
+    <link rel="stylesheet" href="challenge.css">
+</head>
+<body>
+    <div class="text">
+        <h1 class="heading">Lets Play a Game!</h1>
+        <h2 class="japanese">最初はグー、じゃんけん</h2>
+        <h3 class="heading2">Rock, Paper or Scissors</h2>
+    </div>
+    <div class="images">
+        <div class="rock" id="rock">
+            <img onclick="playGame('Rock')" src="./images.jfif" alt="">
+        </div>
+        <div class="sza" id="sza">
+            <img onclick="playGame('Scissors')" src="./sza.jfif" alt="">
+            <img  onclick="playGame('Scissors')" src="./sza.jfif" alt="">
+        </div>
+        <div class="paper" id="paper">
+            <img onclick="playGame('Paper')"src="./paper1.jfif" alt="">
+        </div>
+    </div>
+    <div class="userchoice">Player:</div>
+    <div class="vs"> <h4>vs</h4></div>
+    <div class="computer">Computer:</div>
+    <div class="result">RESULT</div>
+    <div class="Score">
+        <div class="You">
+            You:
+            <span class="userscore">0</span>
+        <div class="Comp">
+            Computer:
+            <span class="computerscore">0</span>
+        </div>
+        </div>
+    </div>
+    
+    
+<script src="challenge.js"></script> 
+</body>
+</html>
